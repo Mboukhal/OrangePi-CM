@@ -4,8 +4,8 @@ import time
 
 from paho.mqtt import client as mqtt_client
 
-BROCKER = 'broker.emqx.io'
-PORT = 1883
+BROCKER = '65.20.105.32'
+PORT = 80
 TOPIC = "python/mqtt"
 # Generate a Client ID with the publish prefix.
 CLIENT_ID = f'publish-{random.randint(0, 1000)}'
